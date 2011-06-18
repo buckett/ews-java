@@ -5,7 +5,16 @@
 	<artifactId>exchange-ws-api</artifactId>
 	<version>1.1.4-SNAPSHOT</version>
 	<name>Exchange WebService API</name>
-	<description>From http://archive.msdn.microsoft.com/ewsjavaapi</description>
+	<description>The source came from http://archive.msdn.microsoft.com/ewsjavaapi
+	Support for Maven has been added.</description>
+	<licenses>
+		<license>
+			<name>Microsoft Public License</name>
+			<url>http://www.microsoft.com/opensource/licenses.mspx#Ms-PL</url>
+			<distribution>repo</distribution>
+			<comments>Microsoft's most open license.</comments>
+		</license>
+	</licenses>
 	<build>
 		<plugins>
 			<plugin>
@@ -50,7 +59,7 @@
 			<artifactId>junit</artifactId>
 			<version>4.8.2</version>
 			<type>jar</type>
-			<scope>compile</scope>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
