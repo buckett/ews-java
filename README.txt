@@ -1,3 +1,7 @@
+Microsoft have a proper Open Source copy and you should probably use that instead: https://github.com/officedev/ews-java-api
+
+
+
 Just a few notes.
 
 It needs JDK 1.6. The original documentation says that it works with Exchange 2010
